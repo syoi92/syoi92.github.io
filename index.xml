@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Seongyong Kim</title>
+    <link>https://syoi92.github.io/</link>
+      <atom:link href="https://syoi92.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Seongyong Kim</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Seongyong Kim</copyright><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://syoi92.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Seongyong Kim</title>
+      <link>https://syoi92.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer (currently typesetting in CPENG)</title>
+      <link>https://syoi92.github.io/publication/2020-cpeng/</link>
+      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://syoi92.github.io/publication/2020-cpeng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://syoi92.github.io/news/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0900</pubDate>
+      <guid>https://syoi92.github.io/news/</guid>
+      <description>
+
+
+
+
+
+
+
+
+&lt;p&gt;&lt;strong&gt;[Jan. 2021]&lt;/strong&gt; I will start the doctoral program in CEE at &lt;a href=&#34;https://ce.gatech.edu/&#34;&gt;Georgia Tech&lt;/a&gt; from Spring semester.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Nov. 2020]&lt;/strong&gt; The launch date of &lt;a href=&#34;https://ziphz.com/&#34;&gt;집현전 [Wise Strategy to Buy a House]&lt;/a&gt;, the Korean web service I&amp;rsquo;ve partially engaged in. This service is to recommend real estate to customers and to connect them to real estate agents with low broker fees.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Aug. 2020]&lt;/strong&gt; Our paper &lt;em&gt;Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer&lt;/em&gt; was finally accepted at &lt;a href=&#34;https://ascelibrary.org/journal/jccee5&#34;&gt;ASCE Journal of Computing in Civil Engineering&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Jun. 2020]&lt;/strong&gt; I won a fund worth $50000 from Startup Supporting Program by Korea Ministry of SMEs and Startups.&lt;/p&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>
