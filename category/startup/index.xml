@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>startup | Seongyong Kim</title>
+    <link>https://syoi92.github.io/category/startup/</link>
+      <atom:link href="https://syoi92.github.io/category/startup/index.xml" rel="self" type="application/rss+xml" />
+    <description>startup</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Seongyong Kim</copyright><lastBuildDate>Thu, 19 Nov 2020 16:59:03 +0900</lastBuildDate>
+    <image>
+      <url>https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_512x512_fill_lanczos_center_2.png</url>
+      <title>startup</title>
+      <link>https://syoi92.github.io/category/startup/</link>
+    </image>
+    
+    <item>
+      <title>Startup- recommending starting locations to new business owners</title>
+      <link>https://syoi92.github.io/project/startup-sizac/</link>
+      <pubDate>Thu, 19 Nov 2020 16:59:03 +0900</pubDate>
+      <guid>https://syoi92.github.io/project/startup-sizac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Startup- launching the web application on real estate in Korea</title>
+      <link>https://syoi92.github.io/project/startup-ziphz/</link>
+      <pubDate>Tue, 10 Nov 2020 13:59:06 +0900</pubDate>
+      <guid>https://syoi92.github.io/project/startup-ziphz/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

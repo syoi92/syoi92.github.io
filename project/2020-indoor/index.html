@@ -1,0 +1,1459 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.0 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Seongyong Kim">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Floorplan Analysis: retriving the indoor structure from floorplans">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://syoi92.github.io/project/2020-indoor/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://syoi92.github.io/project/2020-indoor/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Seongyong Kim">
+  <meta property="og:url" content="https://syoi92.github.io/project/2020-indoor/">
+  <meta property="og:title" content="Indoor Reconstruction | Seongyong Kim">
+  <meta property="og:description" content="Floorplan Analysis: retriving the indoor structure from floorplans"><meta property="og:image" content="https://syoi92.github.io/project/2020-indoor/featured.png">
+  <meta property="twitter:image" content="https://syoi92.github.io/project/2020-indoor/featured.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2020-11-20T17:00:07&#43;09:00">
+    
+    <meta property="article:modified_time" content="2020-11-20T17:00:07&#43;09:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://syoi92.github.io/project/2020-indoor/"
+  },
+  "headline": "Indoor Reconstruction",
+  
+  "image": [
+    "https://syoi92.github.io/project/2020-indoor/featured.png"
+  ],
+  
+  "datePublished": "2020-11-20T17:00:07+09:00",
+  "dateModified": "2020-11-20T17:00:07+09:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Seongyong Kim"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Seongyong Kim",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Floorplan Analysis: retriving the indoor structure from floorplans"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Indoor Reconstruction | Seongyong Kim</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Seongyong Kim</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Seongyong Kim</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/media/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+
+      
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1>Indoor Reconstruction</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 20, 2020
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/indoor/">Indoor</a></span>
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 342px;">
+  <div style="position: relative">
+    <img src="/project/2020-indoor/featured_hu53cef8c9ec1a8a63161258650392b915_2097013_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">3D reconstruction from raster floorplans</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="floorplan-analysis-retriving-the-indoor-structure-from-floorplans">Floorplan Analysis: retriving the indoor structure from floorplans</h2>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/selected/">selected</a>
+  
+  <a class="badge badge-light" href="/tag/research/">research</a>
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://syoi92.github.io/"><img class="avatar mr-3 avatar-circle" src="/author/seongyong-kim/avatar_hud360493ec4adbc1444c6094c963d36e9_74871_270x270_fill_q75_lanczos_center.jpg" alt="Seongyong Kim"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://syoi92.github.io/">Seongyong Kim</a></h5>
+      <h6 class="card-subtitle">Research fellow</h6>
+      <p class="card-text">My research interests include indoor information, GIS, construction automation based on computer vision.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:syoi0928@gmail.com" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/syoi92" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/media/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/2019-landcover/">Updating Land Category in Cadastral Map Using Hyperspectral UAV</a></li>
+      
+      <li><a href="/project/2020-seri/">Location Allocation based on QGIS</a></li>
+      
+      <li><a href="/project/startup-ziphz/">Startup- launching the web application on real estate in Korea</a></li>
+      
+      <li><a href="/publication/2020-cpeng/">Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer (currently on typesetting)</a></li>
+      
+      <li><a href="/publication/2018-evacuationmap/">(Korean) Indoor Network Generation Using Building Evacuation Maps</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/2020-cpeng/" >Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer (currently on typesetting)</a>
+    </h3>
+
+    
+    <a href="/publication/2020-cpeng/"  class="summary-link">
+      <div class="article-style">
+        <p>Keywords: Indoor Spaces; Floor Plan Analysis; Style Transfer; Conditional Generative Adversarial Networks (cGAN); Integer Programming</p>
+<p><em>Journal of Computing in Civil Engineering</em>, accepted in Aug. 2020.</p>
+
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span class="author-highlighted"><a href="/author/seongyong-kim/">Seongyong Kim</a></span>, <span ><a href="/author/seula-park/">Seula Park</a></span>, <span ><a href="/author/hyeonjeong-kim/">Hyeonjeong Kim</a></span>, <span ><a href="/author/kiyun-yu/">Kiyun Yu</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2020-cpeng/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-indoor/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1061/%28ASCE%29CP.1943-5487.0000942" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/#" >
+    
+    pdf
+  </a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2020-cpeng/" >
+      <img src="/publication/2020-cpeng/featured_huefd2498f9ad72ce8a804028bc960b28a_1242116_150x0_resize_lanczos_2.png" alt="Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer (currently on typesetting)">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/2018-evacuationmap/" >(Korean) Indoor Network Generation Using Building Evacuation Maps</a>
+    </h3>
+
+    
+    <a href="/publication/2018-evacuationmap/"  class="summary-link">
+      <div class="article-style">
+        <p>Keywords: Indoor Network; Indoor Spatial Information; Evacuation Map; Indoor Network Attribute; Conditional Generative Adversarial Network (cGAN)</p>
+<p><em>The Korean Society of Hazard Mitigation</em>, Oct. 2018.</p>
+
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><a href="/author/seula-park/">Seula Park</a></span>, <span class="author-highlighted"><a href="/author/seongyong-kim/">Seongyong Kim</a></span>, <span ><a href="/author/hyeonjeong-kim/">Hyeonjeong Kim</a></span>, <span ><a href="/author/kiyun-yu/">Kiyun Yu</a></span>, <span ><a href="/author/kim-jung-ok/">Kim, Jung Ok</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2018-evacuationmap/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-indoor/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.9798/KOSHAM.2018.18.7.387" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2018-evacuationmap/" >
+      <img src="/publication/2018-evacuationmap/featured_hu1063a12d50f85fe56eab5aa33696b395_737598_150x0_resize_lanczos_2.png" alt="(Korean) Indoor Network Generation Using Building Evacuation Maps">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/2018-giscience/" >Application of Style Transfer in the Vectorization Process of Floorplans (Short Paper)</a>
+    </h3>
+
+    
+    <a href="/publication/2018-giscience/"  class="summary-link">
+      <div class="article-style">
+        <p>Keywords: Floorplan; Vectorizing; Style Transfer; Generative Adversarial Networks (GAN)</p>
+<p><strong>Oral Presentation</strong>, <em>10th International Conference on Geographic Information Science (GIScience)</em>, Aug. 2018.</p>
+
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span class="author-highlighted"><a href="/author/seongyong-kim/">Seongyong Kim</a></span>, <span ><a href="/author/seula-park/">Seula Park</a></span>, <span ><a href="/author/kiyun-yu/">Kiyun Yu</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2018-giscience/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-indoor/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1145/3193025.3193048" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2018-giscience/" >
+      <img src="/publication/2018-giscience/featured_hu34ef0f4a5370ab0c44010ce9d9869874_124065_150x0_resize_lanczos_2.png" alt="Application of Style Transfer in the Vectorization Process of Floorplans (Short Paper)">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+          
+            
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0">
+      <a href="/publication/2018-iccgv2/" >Designing of Indoor Linkable Pedestrian Network Data Model for the Transportation Vulnerable</a>
+    </h3>
+
+    
+    <a href="/publication/2018-iccgv2/"  class="summary-link">
+      <div class="article-style">
+        <p>Keywords: Indoor network data model; Transportation vulnerable; Moving facility</p>
+<p><em>2nd International Conference on Digital Signal Processing (ICDSP)</em>, Feb. 2018.</p>
+
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div>
+        
+
+  
+  <span ><a href="/author/seula-park/">Seula Park</a></span>, <span class="author-highlighted"><a href="/author/seongyong-kim/">Seongyong Kim</a></span>, <span ><a href="/author/kiyun-yu/">Kiyun Yu</a></span>
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/2018-iccgv2/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/2020-indoor/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1145/3193025.3193048" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/2018-iccgv2/" >
+      <img src="/publication/2018-iccgv2/featured_huf8edbb58d1cfe358e68d681ad15c630a_87739_150x0_resize_lanczos_2.png" alt="Designing of Indoor Linkable Pedestrian Network Data Model for the Transportation Vulnerable">
+    </a>
+    
+  </div>
+</div>
+
+          
+        
+      
+
+      
+      
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Seongyong Kim
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.e12a433b5263f986889e92a8db689be9.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>

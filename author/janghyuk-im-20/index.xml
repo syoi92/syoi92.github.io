@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Janghyuk Im (20%) | Seongyong Kim</title>
+    <link>https://syoi92.github.io/author/janghyuk-im-20/</link>
+      <atom:link href="https://syoi92.github.io/author/janghyuk-im-20/index.xml" rel="self" type="application/rss+xml" />
+    <description>Janghyuk Im (20%)</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Seongyong Kim</copyright>
+    <image>
+      <url>https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_512x512_fill_lanczos_center_2.png</url>
+      <title>Janghyuk Im (20%)</title>
+      <link>https://syoi92.github.io/author/janghyuk-im-20/</link>
+    </image>
+    
+    <item>
+      <title>사용자 참여형 위치 식별 방법</title>
+      <link>https://syoi92.github.io/publication/2019-vgi-patent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://syoi92.github.io/publication/2019-vgi-patent/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

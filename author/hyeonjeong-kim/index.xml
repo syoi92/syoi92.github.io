@@ -5,7 +5,7 @@
     <link>https://syoi92.github.io/author/hyeonjeong-kim/</link>
       <atom:link href="https://syoi92.github.io/author/hyeonjeong-kim/index.xml" rel="self" type="application/rss+xml" />
     <description>Hyeonjeong Kim</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Seongyong Kim</copyright><lastBuildDate>Fri, 06 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Seongyong Kim</copyright><lastBuildDate>Fri, 20 Nov 2020 17:07:57 +0900</lastBuildDate>
     <image>
       <url>https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_512x512_fill_lanczos_center_2.png</url>
       <title>Hyeonjeong Kim</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
-      <title>Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer (currently typesetting in CPENG)</title>
+      <title>Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer (currently on typesetting)</title>
       <link>https://syoi92.github.io/publication/2020-cpeng/</link>
-      <pubDate>Fri, 06 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 20 Nov 2020 17:07:57 +0900</pubDate>
       <guid>https://syoi92.github.io/publication/2020-cpeng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(Korean) Indoor Network Generation Using Building Evacuation Maps</title>
+      <link>https://syoi92.github.io/publication/2018-evacuationmap/</link>
+      <pubDate>Mon, 01 Oct 2018 17:09:02 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2018-evacuationmap/</guid>
       <description></description>
     </item>
     
