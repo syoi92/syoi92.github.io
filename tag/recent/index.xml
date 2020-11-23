@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects | Seongyong Kim</title>
-    <link>https://syoi92.github.io/project/</link>
-      <atom:link href="https://syoi92.github.io/project/index.xml" rel="self" type="application/rss+xml" />
-    <description>Projects</description>
+    <title>recent | Seongyong Kim</title>
+    <link>https://syoi92.github.io/tag/recent/</link>
+      <atom:link href="https://syoi92.github.io/tag/recent/index.xml" rel="self" type="application/rss+xml" />
+    <description>recent</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Seongyong Kim</copyright><lastBuildDate>Fri, 20 Nov 2020 17:00:07 +0900</lastBuildDate>
     <image>
       <url>https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_512x512_fill_lanczos_center_2.png</url>
-      <title>Projects</title>
-      <link>https://syoi92.github.io/project/</link>
+      <title>recent</title>
+      <link>https://syoi92.github.io/tag/recent/</link>
     </image>
     
     <item>
@@ -22,42 +22,10 @@
     </item>
     
     <item>
-      <title>GIS- DroneSurvey [Seoul SROCM, Jun.–Jul. 2018]</title>
-      <link>https://syoi92.github.io/project/2018-dronesurvey/</link>
-      <pubDate>Fri, 20 Nov 2020 16:57:09 +0900</pubDate>
-      <guid>https://syoi92.github.io/project/2018-dronesurvey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GIS- UnauthorizedLand [Korea LX, Jul.–Oct. 2017]</title>
-      <link>https://syoi92.github.io/project/2017-unauthorizedland/</link>
-      <pubDate>Fri, 20 Nov 2020 16:56:15 +0900</pubDate>
-      <guid>https://syoi92.github.io/project/2017-unauthorizedland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GIS- Advanced Address System [Korea MOI, Jul.-Dec. 2017]</title>
-      <link>https://syoi92.github.io/project/2017-address/</link>
-      <pubDate>Fri, 20 Nov 2020 16:53:40 +0900</pubDate>
-      <guid>https://syoi92.github.io/project/2017-address/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GIS- Consulting Location Allocation [Samsung Economic Research Institute, May–Jun. 2020]</title>
       <link>https://syoi92.github.io/project/2020-seri/</link>
       <pubDate>Fri, 20 Nov 2020 14:20:55 +0900</pubDate>
       <guid>https://syoi92.github.io/project/2020-seri/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Startup- recommending starting locations to new business owners</title>
-      <link>https://syoi92.github.io/project/startup-sizac/</link>
-      <pubDate>Thu, 19 Nov 2020 16:59:03 +0900</pubDate>
-      <guid>https://syoi92.github.io/project/startup-sizac/</guid>
       <description></description>
     </item>
     
@@ -74,14 +42,6 @@
 &lt;/ol&gt;
 &lt;p&gt;The method automatically reveals the inconsistent parcels requiring updates of their land category. Although the performance of the proposed method depends on the classification results obtained from UAV imagery, the method allows a flexible modification of the matching criteria between the land categories and land coverage. Therefore, it is generalizable to various cadastral systems and the discrepancy ratios will provide practical information and significantly reduce the time and effort for land monitoring and field surveying.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Startup- launching the web application on real estate in Korea</title>
-      <link>https://syoi92.github.io/project/startup-ziphz/</link>
-      <pubDate>Tue, 10 Nov 2020 13:59:06 +0900</pubDate>
-      <guid>https://syoi92.github.io/project/startup-ziphz/</guid>
-      <description></description>
     </item>
     
   </channel>
