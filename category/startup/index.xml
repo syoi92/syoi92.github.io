@@ -5,7 +5,7 @@
     <link>https://syoi92.github.io/category/startup/</link>
       <atom:link href="https://syoi92.github.io/category/startup/index.xml" rel="self" type="application/rss+xml" />
     <description>startup</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Seongyong Kim</copyright><lastBuildDate>Thu, 19 Nov 2020 16:59:03 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright><lastBuildDate>Thu, 19 Nov 2020 16:59:03 +0900</lastBuildDate>
     <image>
       <url>https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_512x512_fill_lanczos_center_2.png</url>
       <title>startup</title>
@@ -17,7 +17,8 @@
       <link>https://syoi92.github.io/project/startup-sizac/</link>
       <pubDate>Thu, 19 Nov 2020 16:59:03 +0900</pubDate>
       <guid>https://syoi92.github.io/project/startup-sizac/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://118.67.128.236&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://118.67.128.236&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -25,7 +26,10 @@
       <link>https://syoi92.github.io/project/startup-ziphz/</link>
       <pubDate>Tue, 10 Nov 2020 13:59:06 +0900</pubDate>
       <guid>https://syoi92.github.io/project/startup-ziphz/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ziphz.com&#34;&gt;https://ziphz.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Related Contents&lt;br&gt;
+&lt;a href=&#34;https://github.com/TrendSeminar/visualize_HousePriceFluctuations&#34;&gt;https://github.com/TrendSeminar/visualize_HousePriceFluctuations&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>
