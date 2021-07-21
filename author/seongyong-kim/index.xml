@@ -7,15 +7,31 @@
     <description>Seongyong Kim</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright>
     <image>
-      <url>https://syoi92.github.io/author/seongyong-kim/avatar_hud360493ec4adbc1444c6094c963d36e9_74871_270x270_fill_q75_lanczos_center.jpg</url>
+      <url>https://syoi92.github.io/author/seongyong-kim/avatar_hu1585ed191871b6c0275630af86625e78_2081258_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Seongyong Kim</title>
       <link>https://syoi92.github.io/author/seongyong-kim/</link>
     </image>
     
     <item>
+      <title>Analysis of Flight Parameters on UAV Semantic Segmentation Performance for Highway Infrastructure Monitoring</title>
+      <link>https://syoi92.github.io/publication/2021-i3cea/</link>
+      <pubDate>Wed, 21 Jul 2021 17:07:57 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2021-i3cea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI-driven 3D Point Cloud-Based Highway Infrastructure Monitoring System using UAV</title>
+      <link>https://syoi92.github.io/publication/2021-i3ceb/</link>
+      <pubDate>Tue, 20 Jul 2021 17:07:57 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2021-i3ceb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer</title>
       <link>https://syoi92.github.io/publication/2020-cpeng/</link>
-      <pubDate>Fri, 20 Nov 2020 17:07:57 +0900</pubDate>
+      <pubDate>Sat, 20 Mar 2021 17:07:57 +0900</pubDate>
       <guid>https://syoi92.github.io/publication/2020-cpeng/</guid>
       <description></description>
     </item>
@@ -54,24 +70,24 @@
     
     <item>
       <title>Designing of Indoor Linkable Pedestrian Network Data Model for the Transportation Vulnerable</title>
-      <link>https://syoi92.github.io/publication/2018-iccgv2/</link>
+      <link>https://syoi92.github.io/publication/2018-iccgvb/</link>
       <pubDate>Tue, 20 Feb 2018 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-iccgv2/</guid>
+      <guid>https://syoi92.github.io/publication/2018-iccgvb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proposal for a Method of Extracting Road Layers from Remote Sensing Images Using Conditional GANs</title>
-      <link>https://syoi92.github.io/publication/2018-iccgv/</link>
+      <link>https://syoi92.github.io/publication/2018-iccgva/</link>
       <pubDate>Tue, 20 Feb 2018 17:03:01 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-iccgv/</guid>
+      <guid>https://syoi92.github.io/publication/2018-iccgva/</guid>
       <description></description>
     </item>
     
     <item>
       <title>(Korean) 사용자 참여형 위치 식별 방법</title>
       <link>https://syoi92.github.io/publication/2019-vgi-patent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jan 2018 17:09:53 +0900</pubDate>
       <guid>https://syoi92.github.io/publication/2019-vgi-patent/</guid>
       <description></description>
     </item>

@@ -5,17 +5,33 @@
     <link>https://syoi92.github.io/</link>
       <atom:link href="https://syoi92.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Seongyong Kim</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright><lastBuildDate>Fri, 20 Nov 2020 17:07:57 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright><lastBuildDate>Wed, 21 Jul 2021 17:07:57 +0900</lastBuildDate>
     <image>
-      <url>https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_512x512_fill_lanczos_center_2.png</url>
+      <url>https://syoi92.github.io/images/icon_huf518f70123785c66710b5914f5d39b28_247908_512x512_fill_lanczos_center_2.png</url>
       <title>Seongyong Kim</title>
       <link>https://syoi92.github.io/</link>
     </image>
     
     <item>
+      <title>Analysis of Flight Parameters on UAV Semantic Segmentation Performance for Highway Infrastructure Monitoring</title>
+      <link>https://syoi92.github.io/publication/2021-i3cea/</link>
+      <pubDate>Wed, 21 Jul 2021 17:07:57 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2021-i3cea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI-driven 3D Point Cloud-Based Highway Infrastructure Monitoring System using UAV</title>
+      <link>https://syoi92.github.io/publication/2021-i3ceb/</link>
+      <pubDate>Tue, 20 Jul 2021 17:07:57 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2021-i3ceb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer</title>
       <link>https://syoi92.github.io/publication/2020-cpeng/</link>
-      <pubDate>Fri, 20 Nov 2020 17:07:57 +0900</pubDate>
+      <pubDate>Sat, 20 Mar 2021 17:07:57 +0900</pubDate>
       <guid>https://syoi92.github.io/publication/2020-cpeng/</guid>
       <description></description>
     </item>
@@ -98,14 +114,6 @@
     </item>
     
     <item>
-      <title>Discrepancy Analysis for Detecting Candidate Parcels Requiring Update of Land Category in Cadastral Map Using Hyperspectral UAV Images: A Case Study in Jeonju, South Korea</title>
-      <link>https://syoi92.github.io/publication/2020-landcover/</link>
-      <pubDate>Tue, 21 Jan 2020 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2020-landcover/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>(Korean) Indoor Network Generation Using Building Evacuation Maps</title>
       <link>https://syoi92.github.io/publication/2018-evacuationmap/</link>
       <pubDate>Mon, 01 Oct 2018 17:09:02 +0900</pubDate>
@@ -131,17 +139,25 @@
     
     <item>
       <title>Designing of Indoor Linkable Pedestrian Network Data Model for the Transportation Vulnerable</title>
-      <link>https://syoi92.github.io/publication/2018-iccgv2/</link>
+      <link>https://syoi92.github.io/publication/2018-iccgvb/</link>
       <pubDate>Tue, 20 Feb 2018 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-iccgv2/</guid>
+      <guid>https://syoi92.github.io/publication/2018-iccgvb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proposal for a Method of Extracting Road Layers from Remote Sensing Images Using Conditional GANs</title>
-      <link>https://syoi92.github.io/publication/2018-iccgv/</link>
+      <link>https://syoi92.github.io/publication/2018-iccgva/</link>
       <pubDate>Tue, 20 Feb 2018 17:03:01 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-iccgv/</guid>
+      <guid>https://syoi92.github.io/publication/2018-iccgva/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(Korean) 사용자 참여형 위치 식별 방법</title>
+      <link>https://syoi92.github.io/publication/2019-vgi-patent/</link>
+      <pubDate>Tue, 02 Jan 2018 17:09:53 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2019-vgi-patent/</guid>
       <description></description>
     </item>
     
@@ -159,6 +175,7 @@
 
 
 
+&lt;p&gt;&lt;strong&gt;[Jul. 2021]&lt;/strong&gt; Two conference papers got accepted at &lt;a href=&#34;https://dcp.ufl.edu/cacim/i3ce2021/&#34;&gt;i3CE 2021&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[May 2021]&lt;/strong&gt; I joined &lt;a href=&#34;http://rical.ce.gatech.edu/&#34;&gt;RICAL&lt;/a&gt; research team and am pursuing my Ph.D. under Dr. Yong K Cho.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Jan. 2021]&lt;/strong&gt; I started the doctoral program in CEE at &lt;a href=&#34;https://ce.gatech.edu/&#34;&gt;Georgia Tech&lt;/a&gt; from Spring semester.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Nov. 2020]&lt;/strong&gt; The launch date of &lt;a href=&#34;https://ziphz.com/&#34;&gt;집현전 [Wise Strategy to Buy a House]&lt;/a&gt;, the Korean web service I&amp;rsquo;ve partially engaged in. This service is to recommend real estate to customers and to connect them to real estate agents with low broker fees.&lt;/p&gt;
@@ -166,14 +183,6 @@
 &lt;p&gt;&lt;strong&gt;[Jun. 2020]&lt;/strong&gt; I won a fund worth $50000 from &lt;a href=&#34;https://www.k-startup.go.kr/homepage/businessManage/businessManageFunction.do?mid=30574&amp;amp;sid=437&amp;amp;itemSeq=299490&#34;&gt;Startup Supporting Program&lt;/a&gt; by Korea Ministry of SMEs and Startups.&lt;/p&gt;
 
 </description>
-    </item>
-    
-    <item>
-      <title>(Korean) 사용자 참여형 위치 식별 방법</title>
-      <link>https://syoi92.github.io/publication/2019-vgi-patent/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://syoi92.github.io/publication/2019-vgi-patent/</guid>
-      <description></description>
     </item>
     
   </channel>

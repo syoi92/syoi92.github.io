@@ -7,7 +7,7 @@
     <description>GIS</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright><lastBuildDate>Fri, 20 Nov 2020 14:20:55 +0900</lastBuildDate>
     <image>
-      <url>https://syoi92.github.io/images/icon_huf2ac5a0becf6b552ca6c63d0940e4d98_15620_512x512_fill_lanczos_center_2.png</url>
+      <url>https://syoi92.github.io/images/icon_huf518f70123785c66710b5914f5d39b28_247908_512x512_fill_lanczos_center_2.png</url>
       <title>GIS</title>
       <link>https://syoi92.github.io/category/gis/</link>
     </image>
@@ -33,14 +33,6 @@
 &lt;/ol&gt;
 &lt;p&gt;The method automatically reveals the inconsistent parcels requiring updates of their land category. Although the performance of the proposed method depends on the classification results obtained from UAV imagery, the method allows a flexible modification of the matching criteria between the land categories and land coverage. Therefore, it is generalizable to various cadastral systems and the discrepancy ratios will provide practical information and significantly reduce the time and effort for land monitoring and field surveying.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Discrepancy Analysis for Detecting Candidate Parcels Requiring Update of Land Category in Cadastral Map Using Hyperspectral UAV Images: A Case Study in Jeonju, South Korea</title>
-      <link>https://syoi92.github.io/publication/2020-landcover/</link>
-      <pubDate>Tue, 21 Jan 2020 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2020-landcover/</guid>
-      <description></description>
     </item>
     
     <item>
