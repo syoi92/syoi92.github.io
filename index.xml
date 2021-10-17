@@ -5,12 +5,20 @@
     <link>https://syoi92.github.io/</link>
       <atom:link href="https://syoi92.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Seongyong Kim</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright><lastBuildDate>Wed, 21 Jul 2021 17:07:57 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright><lastBuildDate>Fri, 15 Oct 2021 17:07:57 +0900</lastBuildDate>
     <image>
       <url>https://syoi92.github.io/images/icon_huf518f70123785c66710b5914f5d39b28_247908_512x512_fill_lanczos_center_2.png</url>
       <title>Seongyong Kim</title>
       <link>https://syoi92.github.io/</link>
     </image>
+    
+    <item>
+      <title>Fast Online Incremental Segmentation of 3D Point Clouds from Disaster Sites</title>
+      <link>https://syoi92.github.io/publication/2021-isarc/</link>
+      <pubDate>Fri, 15 Oct 2021 17:07:57 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2021-isarc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Analysis of Flight Parameters on UAV Semantic Segmentation Performance for Highway Infrastructure Monitoring</title>
@@ -175,9 +183,11 @@
 
 
 
+&lt;p&gt;&lt;strong&gt;[Oct. 2021]&lt;/strong&gt; One paper got accepted at &lt;a href=&#34;http://www.isarc2021.org/&#34;&gt;ISARC 2021&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[Sep. 2021]&lt;/strong&gt; Presented the i3CE conference paper in Orlando, Florida.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Jul. 2021]&lt;/strong&gt; We (GTS2B) ranked second in the 2D floorplan reconstruction category at &lt;a href=&#34;https://cv4aec.github.io/&#34;&gt;1st Workshop and Challenge on Computer Vision in the Built Environment, CVPR&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Jul. 2021]&lt;/strong&gt; Two conference papers got accepted at &lt;a href=&#34;https://dcp.ufl.edu/cacim/i3ce2021/&#34;&gt;i3CE 2021&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;[May 2021]&lt;/strong&gt; I joined &lt;a href=&#34;http://rical.ce.gatech.edu/&#34;&gt;RICAL&lt;/a&gt; research team and am pursuing my Ph.D. under Dr. Yong K Cho.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;[May 2021]&lt;/strong&gt; I joined the &lt;a href=&#34;http://rical.ce.gatech.edu/&#34;&gt;RICAL&lt;/a&gt; research team and am pursuing my Ph.D. under Dr. Yong K. Cho.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Jan. 2021]&lt;/strong&gt; I started the doctoral program in CEE at &lt;a href=&#34;https://ce.gatech.edu/&#34;&gt;Georgia Tech&lt;/a&gt; from Spring semester.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Nov. 2020]&lt;/strong&gt; The launch date of &lt;a href=&#34;https://ziphz.com/&#34;&gt;집현전&lt;/a&gt;, the Korean web service I&amp;rsquo;ve partially engaged in as a GIS developer. This service is about Apartment Recommendation Systems.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[Aug. 2020]&lt;/strong&gt; Our paper &lt;em&gt;Deep Floor Plan Analysis for Complicated Drawings Based on Style Transfer&lt;/em&gt; was finally accepted at &lt;a href=&#34;https://ascelibrary.org/journal/jccee5&#34;&gt;ASCE Journal of Computing in Civil Engineering&lt;/a&gt;.&lt;/p&gt;
