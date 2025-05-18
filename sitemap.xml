@@ -1,290 +1,203 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://syoi92.github.io/publication-type/1/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/authors/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2021-isarc/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/author/jingdao-chen/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication_types/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/author/yong-k.-cho/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/author/yosuke-yajima/</loc>
-    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2021-i3cea/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/categories/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/author/javier-irizarry/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/author/jisoo-park/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/author/mark-kahoush/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/author/steven-kangisser/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/category/uav/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2021-i3ceb/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://syoi92.github.io/publication-type/2/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/authors/</loc>
+    <lastmod>2025-05-18T06:34:17+00:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/hyunjin-yang/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/matthew-gombolay/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication_types/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/sehoon-ha/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/</loc>
+    <lastmod>2025-05-18T06:34:17+00:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/seungwoo-kim/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/2024-autocon/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/yeseul-kim/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/yilong-chen/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/yong-kwon-cho/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/yonghan-ahn/</loc>
+    <lastmod>2024-08-01T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication-type/1/</loc>
+    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2021-isarc/</loc>
+    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/jingdao-chen/</loc>
+    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/yong-k.-cho/</loc>
+    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/yosuke-yajima/</loc>
+    <lastmod>2021-10-15T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2021-i3cea/</loc>
+    <lastmod>2021-07-21T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/categories/</loc>
+    <lastmod>2021-07-21T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/javier-irizarry/</loc>
+    <lastmod>2021-07-21T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/jisoo-park/</loc>
+    <lastmod>2021-07-21T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/mark-kahoush/</loc>
+    <lastmod>2021-07-21T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/author/steven-kangisser/</loc>
+    <lastmod>2021-07-21T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/category/uav/</loc>
+    <lastmod>2021-07-21T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2021-i3ceb/</loc>
+    <lastmod>2021-07-20T17:07:57+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/publication/2020-cpeng/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/author/hyeonjeong-kim/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/category/indoor/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/author/kiyun-yu/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/author/seula-park/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/2020-indoor/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/tag/recent/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/tag/selected/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/tags/</loc>
     <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/tag/gis/</loc>
     <lastmod>2020-12-24T17:25:19-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/2018-dronesurvey/</loc>
     <lastmod>2020-11-23T12:38:46+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/tag/past/</loc>
     <lastmod>2020-11-23T12:38:46+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/2017-unauthorizedland/</loc>
     <lastmod>2020-11-23T12:38:46+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/2017-address/</loc>
     <lastmod>2020-11-23T12:38:46+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/category/gis/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2020-12-24T17:25:19-05:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/project/2020-seri/</loc>
     <lastmod>2020-12-24T17:25:19-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/tag/startup/</loc>
     <lastmod>2021-01-01T15:35:51-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/category/startup/</loc>
     <lastmod>2021-01-01T15:35:51-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/startup-sizac/</loc>
     <lastmod>2021-01-01T15:35:51-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/2019-landcover/</loc>
     <lastmod>2020-11-23T12:38:46+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/project/startup-ziphz/</loc>
     <lastmod>2021-01-01T15:35:51-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2018-evacuationmap/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2018-evacuationmap/</loc>
+    <lastmod>2018-10-01T17:09:02+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/author/kim-jung-ok/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2018-giscience/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2018-unauthorizedland/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-10-01T17:09:02+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2018-giscience/</loc>
+    <lastmod>2018-08-20T17:08:07+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2018-unauthorizedland/</loc>
+    <lastmod>2018-04-30T17:05:22+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/author/hanme-jang/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-30T17:05:22+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/author/jaebin-lee/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-30T17:05:22+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/author/yong-huh/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2018-iccgvb/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2018-iccgva/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://syoi92.github.io/publication/2019-vgi-patent/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-04-30T17:05:22+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2018-iccgvb/</loc>
+    <lastmod>2018-02-20T17:07:57+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2018-iccgva/</loc>
+    <lastmod>2018-02-20T17:03:01+09:00</lastmod>
+  </url><url>
+    <loc>https://syoi92.github.io/publication/_backup/2019-vgi-patent/</loc>
+    <lastmod>2018-01-02T17:09:53+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/publication-type/8/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-01-02T17:09:53+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/author/janghyuk-im/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-01-02T17:09:53+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/author/jiyong-kim/</loc>
-    <lastmod>2021-07-21T02:32:52-04:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2018-01-02T17:09:53+09:00</lastmod>
+  </url><url>
     <loc>https://syoi92.github.io/news/</loc>
     <lastmod>2020-11-20T00:01:33+09:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/post/</loc>
     <lastmod>2020-07-29T20:27:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/publication/</loc>
     <lastmod>2020-07-29T20:27:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/talk/</loc>
     <lastmod>2020-07-29T20:27:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://syoi92.github.io/author/seongyong-kim/</loc>
-    <lastmod>2021-07-21T03:07:21-04:00</lastmod>
+    <lastmod>2025-05-18T06:34:17+00:00</lastmod>
   </url>
-  
 </urlset>

@@ -5,34 +5,42 @@
     <link>https://syoi92.github.io/publication/</link>
       <atom:link href="https://syoi92.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Seongyong Kim</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Seongyong Kim</copyright>
     <image>
-      <url>https://syoi92.github.io/images/icon_huf518f70123785c66710b5914f5d39b28_247908_512x512_fill_lanczos_center_2.png</url>
+      <url>https://syoi92.github.io/images/icon_huf518f70123785c66710b5914f5d39b28_247908_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://syoi92.github.io/publication/</link>
     </image>
     
     <item>
+      <title>Understanding human-robot proxemic norms in construction: How do humans navigate around robots?</title>
+      <link>https://syoi92.github.io/publication/2024-autocon/</link>
+      <pubDate>Thu, 01 Aug 2024 17:07:57 +0900</pubDate>
+      <guid>https://syoi92.github.io/publication/2024-autocon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fast Online Incremental Segmentation of 3D Point Clouds from Disaster Sites</title>
-      <link>https://syoi92.github.io/publication/2021-isarc/</link>
+      <link>https://syoi92.github.io/publication/_backup/2021-isarc/</link>
       <pubDate>Fri, 15 Oct 2021 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2021-isarc/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2021-isarc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Analysis of Flight Parameters on UAV Semantic Segmentation Performance for Highway Infrastructure Monitoring</title>
-      <link>https://syoi92.github.io/publication/2021-i3cea/</link>
+      <link>https://syoi92.github.io/publication/_backup/2021-i3cea/</link>
       <pubDate>Wed, 21 Jul 2021 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2021-i3cea/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2021-i3cea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>AI-driven 3D Point Cloud-Based Highway Infrastructure Monitoring System using UAV</title>
-      <link>https://syoi92.github.io/publication/2021-i3ceb/</link>
+      <link>https://syoi92.github.io/publication/_backup/2021-i3ceb/</link>
       <pubDate>Tue, 20 Jul 2021 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2021-i3ceb/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2021-i3ceb/</guid>
       <description></description>
     </item>
     
@@ -46,49 +54,49 @@
     
     <item>
       <title>(Korean) Indoor Network Generation Using Building Evacuation Maps</title>
-      <link>https://syoi92.github.io/publication/2018-evacuationmap/</link>
+      <link>https://syoi92.github.io/publication/_backup/2018-evacuationmap/</link>
       <pubDate>Mon, 01 Oct 2018 17:09:02 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-evacuationmap/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2018-evacuationmap/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Application of Style Transfer in the Vectorization Process of Floorplans (Short Paper)</title>
-      <link>https://syoi92.github.io/publication/2018-giscience/</link>
+      <link>https://syoi92.github.io/publication/_backup/2018-giscience/</link>
       <pubDate>Mon, 20 Aug 2018 17:08:07 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-giscience/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2018-giscience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>(Korean) Detection of Unauthorized Facilities Occupying on the National and Public Land Using Spatial Data</title>
-      <link>https://syoi92.github.io/publication/2018-unauthorizedland/</link>
+      <link>https://syoi92.github.io/publication/_backup/2018-unauthorizedland/</link>
       <pubDate>Mon, 30 Apr 2018 17:05:22 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-unauthorizedland/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2018-unauthorizedland/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Designing of Indoor Linkable Pedestrian Network Data Model for the Transportation Vulnerable</title>
-      <link>https://syoi92.github.io/publication/2018-iccgvb/</link>
+      <link>https://syoi92.github.io/publication/_backup/2018-iccgvb/</link>
       <pubDate>Tue, 20 Feb 2018 17:07:57 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-iccgvb/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2018-iccgvb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Proposal for a Method of Extracting Road Layers from Remote Sensing Images Using Conditional GANs</title>
-      <link>https://syoi92.github.io/publication/2018-iccgva/</link>
+      <link>https://syoi92.github.io/publication/_backup/2018-iccgva/</link>
       <pubDate>Tue, 20 Feb 2018 17:03:01 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2018-iccgva/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2018-iccgva/</guid>
       <description></description>
     </item>
     
     <item>
       <title>(Korean) 사용자 참여형 위치 식별 방법</title>
-      <link>https://syoi92.github.io/publication/2019-vgi-patent/</link>
+      <link>https://syoi92.github.io/publication/_backup/2019-vgi-patent/</link>
       <pubDate>Tue, 02 Jan 2018 17:09:53 +0900</pubDate>
-      <guid>https://syoi92.github.io/publication/2019-vgi-patent/</guid>
+      <guid>https://syoi92.github.io/publication/_backup/2019-vgi-patent/</guid>
       <description></description>
     </item>
     
