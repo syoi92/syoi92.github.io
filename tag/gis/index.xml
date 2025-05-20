@@ -5,12 +5,22 @@
     <link>https://syoi92.github.io/tag/gis/</link>
       <atom:link href="https://syoi92.github.io/tag/gis/index.xml" rel="self" type="application/rss+xml" />
     <description>gis</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Seongyong Kim</copyright><lastBuildDate>Fri, 20 Nov 2020 16:57:09 +0900</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2025 Seongyong Kim</copyright><lastBuildDate>Fri, 20 Nov 2020 17:00:07 +0900</lastBuildDate>
     <image>
       <url>https://syoi92.github.io/images/icon_huf518f70123785c66710b5914f5d39b28_247908_512x512_fill_lanczos_center_3.png</url>
       <title>gis</title>
       <link>https://syoi92.github.io/tag/gis/</link>
     </image>
+    
+    <item>
+      <title>Indoor Reconstruction [Korea MOLIT, Jul. 2017 – Dec. 2020]</title>
+      <link>https://syoi92.github.io/project/2020-indoor/</link>
+      <pubDate>Fri, 20 Nov 2020 17:00:07 +0900</pubDate>
+      <guid>https://syoi92.github.io/project/2020-indoor/</guid>
+      <description>&lt;h2 id=&#34;floorplan-analysis-retriving-the-indoor-structure-from-floorplans&#34;&gt;Floorplan Analysis: retriving the indoor structure from floorplans&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/IndoorProject&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/IndoorProject&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>GIS- DroneSurvey [Seoul SROCM, Jun.–Jul. 2018]</title>
@@ -25,14 +35,6 @@
       <link>https://syoi92.github.io/project/2017-unauthorizedland/</link>
       <pubDate>Fri, 20 Nov 2020 16:56:15 +0900</pubDate>
       <guid>https://syoi92.github.io/project/2017-unauthorizedland/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GIS- Advanced Address System [Korea MOI, Jul.-Dec. 2017]</title>
-      <link>https://syoi92.github.io/project/2017-address/</link>
-      <pubDate>Fri, 20 Nov 2020 16:53:40 +0900</pubDate>
-      <guid>https://syoi92.github.io/project/2017-address/</guid>
       <description></description>
     </item>
     
